@@ -4,8 +4,16 @@ import planetOfMars from '../../images/planetOfMars.svg';
 import astronomers from '../../images/astronomers.svg';
 import explore from '../../images/explore.svg';
 import './Items.css';
+import { useNavigate } from 'react-router-dom';
 
 const Items = () => {
+  const navigate = useNavigate();
+
+  const addClick = () =>{
+    navigate("https://solarsystem.nasa.gov/solar-system/sun/overview/");
+
+
+  }
     return (
         <div className='cart'>
             <div className='container'>
@@ -32,7 +40,10 @@ const Items = () => {
                       <h1>The</h1>
                       <h2>Sun</h2>
                       <div className='btn-btn'>
+                        <a href="https://solarsystem.nasa.gov/solar-system/sun/overview/">
                       <button className='btn-btn-info fw-bold'>Read More</button>
+
+                        </a>
                       </div>
                       </div>
                     </div>

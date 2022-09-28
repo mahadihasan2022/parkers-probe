@@ -43,6 +43,8 @@ const Footer = () => {
             <ul className='footer-info'>
                 <h6>Contact Us</h6>
                     <li className='text-white list-style'>Phone: 01409117333</li>
+                    <li className='text-white list-style pl-5'>        01782831313</li>
+
                     <li className='text-white list-style'>Email: mahadi35-2848@diu.edu.bd</li>
                   <div className='d-flex p-2'>
                     <div>
