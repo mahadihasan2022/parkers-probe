@@ -15,9 +15,9 @@ const Banner = () => {
             million miles)from the center of the Sun,
           </p>
           <p className="carousel-details">
-          and by 2025 will travel,
-            at closest approach, as fast as 690,000 km/h (430,000 mph), or
-            0.064% the speed of light. It is the fastest object ever built.
+            and by 2025 will travel, at closest approach, as fast as 690,000
+            km/h (430,000 mph), or 0.064% the speed of light. It is the fastest
+            object ever built.
           </p>
         </div>
       </div>
