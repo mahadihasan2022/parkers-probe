@@ -1,0 +1,37 @@
+.footer-body{
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.footer{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.footer-in{
+    color: lime;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-info{
+    text-decoration: none;
+    color: white;
+
+}
+.footer-btn{
+    background-color: orangered;
+    color: black;
+    font-weight: bold;
+}
+.email{
+    border: 2px solid black;
+}
+.list-style{
+    list-style: none;
+}
+.icon{
+    background-color: black;
+    color: white;
+}

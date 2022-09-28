@@ -1,0 +1,82 @@
+.items{
+    padding-left: 70px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    background-image: url("../../images/parker.svg");
+    background-size: cover;
+    height: 700px;
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr); */
+    /* display: flex;
+    justify-content: space-evenly; */
+
+}
+.items h1{
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 20px;
+    color: rgb(7, 119, 54);
+}
+.item{
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: hidden; */
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    overflow: hidden;
+    padding-top: 60px;
+}
+.card-body{
+    background-color: rgb(246, 232, 215);
+}
+.btn-info{
+    width: 100%;
+    background-color: darkturquoise;
+    color: black;
+}
+.title{
+    color: rgb(244, 78, 23);
+    font-size: 30px;
+    font-style: italic;
+}
+.text{
+    color: black;
+    font-weight: 500;
+    font-style: italic;
+}
+.btn-details{
+    display: flex;
+    justify-content: end;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    padding-right: 50px;
+}
+.btn-color{
+    font-weight: bold;
+    border: none;
+    width: 130px;
+    height: 40px;
+    background-color: rgba(9, 244, 244, 0.976);
+    border-radius: 8px;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .item{
+        width: 200%;
+        animation: items 20s linear infinite;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+    .item:hover{
+        animation-play-state: paused;
+    }
+  }
+  @keyframes items {
+    0% { left: 0; }
+    100% { left: -100%; }
+  }
+
+
+

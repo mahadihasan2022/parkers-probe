@@ -1,0 +1,53 @@
+.carousel{
+    background-image: url("../../images/sun.svg");
+    background-size: cover;
+}
+.carousel-container{
+   padding-left: 800px;
+   width: 1250px;
+}
+.carousel-container h1{
+    color: rgb(14, 232, 232);
+    padding-top: 200px;
+    font-weight: bold;
+    font-family: monospace;
+    font-style: italic;
+}
+.carousel-container h2{
+    font-weight: 500;
+    font-family: monospace;
+    font-style: italic;
+    
+}
+.carousel-info{
+    color: rgb(244, 225, 200);
+    padding-top: 15px;
+    font-family: monospace;
+    font-style: italic;
+}
+.carousel-details{
+    color: rgb(252, 233, 208);
+    font-family: monospace;
+    font-style: italic;
+    padding-top: 10px;
+    padding-bottom: 170px;
+}
+@media screen and (max-width: 480px) {
+    .carousel{
+        background-image: url("../../images/sun.svg");
+        background-size: cover;
+    }
+    .carousel-container{
+        padding-left: 15px;
+        padding-top: 100px;
+        width: 100%;
+     }
+     .carousel-container h1{
+        color: rgb(14, 232, 232);
+        padding-top: 20px;
+        font-weight: bold;
+        font-family: monospace;
+        font-style: italic;
+    }
+  
+  }
