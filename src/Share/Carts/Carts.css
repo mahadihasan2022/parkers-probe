@@ -17,7 +17,7 @@
     font-weight: bold;
     font-style: italic;
     padding-bottom: 20px;
-    color: rgb(7, 119, 54);
+    color: wheat;
 }
 .item{
     /* display: grid;
@@ -50,14 +50,14 @@
 .btn-details{
     display: flex;
     justify-content: end;
-    padding-top: 35px;
+    padding-top: 50px;
     padding-bottom: 25px;
     padding-right: 50px;
 }
 .btn-color{
     font-weight: bold;
     border: none;
-    width: 130px;
+    width: 180px;
     height: 40px;
     background-color: rgba(9, 244, 244, 0.976);
     border-radius: 8px;

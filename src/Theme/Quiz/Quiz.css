@@ -1,0 +1,33 @@
+.quiz-body h1{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-family: monospace;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.question-body{
+    width: 100%;
+    text-align: left;
+
+}
+.text-width{
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: gray;
+    width: 1000px;
+    height: 40px;
+    color: black;
+    font-weight: 500;
+    border: 1.5px solid;
+}
+.ques-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+color: black;
+border-radius: 5px;
+padding-left: 20px;
+}

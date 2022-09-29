@@ -10,8 +10,18 @@ import parkerSolar from "../../images/parkerSolar.svg";
 import olympus from "../../images/olympus.svg";
 import spirit from "../../images/spirit.svg";
 import sunLight from "../../images/sunLight.svg";
+import { useNavigate } from "react-router-dom";
 
 const Carts = () => {
+  const navigate = useNavigate();
+
+
+  const handleAddQuiz = () =>{
+    navigate('/Quiz');
+  }
+
+
+
   return (
     <div className="items">
       <h1>Learning Material Tour. </h1>
@@ -88,8 +98,8 @@ const Carts = () => {
         </Card>
       </div>
       <div className="btn-details">
-        <button className="btn-color">
-          Simulator!{" "}
+        <button 
+        onClick={handleAddQuiz} className="btn-color">Explore To Learn!
           <span>
             <FontAwesomeIcon icon={faArrowRight} />
           </span>
