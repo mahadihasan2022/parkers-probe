@@ -7,6 +7,7 @@ import Home from "./Pages/Home/Home";
 import Header from "./Share/Header/Header";
 import Footer from "./Share/Footer/Footer";
 import Quiz from "./Theme/Quiz/Quiz";
+import Image from "./Share/Carts/Image";
 AOS.init();
 
 export const ThemeContextProvider = createContext();
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Quiz" element={<Quiz />} />
+          <Route path="/image" element={<Image/>} />
         </Routes>
         <Footer></Footer>
       </ThemeContextProvider.Provider>
